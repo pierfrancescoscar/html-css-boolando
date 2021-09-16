@@ -13,6 +13,7 @@
     background-color: white;
     width: 75%;
     margin: 40px auto;
+   
     
 }
 
@@ -25,8 +26,23 @@
     
 }
 
+.products {
+    position: relative;
+}
+
 .products img {
     width: 100%;
-    padding: 5px;
+    padding: 0 5px;
 }
+
+.heart {
+    background: white;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    padding: 10px;
+    
+}
+
+
 
