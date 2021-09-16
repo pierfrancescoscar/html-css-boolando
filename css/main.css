@@ -1,0 +1,32 @@
+/*GENERAL SETTINGS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Main Cointainer Styling*/
+
+.container {
+
+    background-color: white;
+    width: 75%;
+    margin: 40px auto;
+    
+}
+
+/*Products Styling*/
+
+.columns {
+    display: inline-block;
+    width: 32%;
+    margin-bottom: 20px;
+    
+}
+
+.products img {
+    width: 100%;
+    padding: 5px;
+}
+
