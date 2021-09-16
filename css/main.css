@@ -70,6 +70,39 @@
     font-weight: 700;
 }
 
+/*Description Products Styling*/
+
+.products-description {
+    position: absolute;
+    left: 5px;
+    margin-top: 10px;
+    
+}
+
+.brand-name {
+    font-size: 13px;
+    font-weight: 300;
+
+}
+
+.article-name {
+    font-weight: 700;
+}
+
+.price {
+    font-size: 14px;
+    color: red;
+    font-weight: 600;
+}
+
+.discounted-price {
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: line-through;
+
+}
+
+
 
 
 
