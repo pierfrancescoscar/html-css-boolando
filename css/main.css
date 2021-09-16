@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /*Main Cointainer Styling*/
@@ -43,6 +44,33 @@
     padding: 10px;
     
 }
+
+/*Shop Tags Styling*/
+
+.red-discount {
+    position: absolute;
+    left: 5px;
+    bottom: 20px;
+    font-size: 12px;
+    background: red;
+    padding: 4px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.green-tag {
+    position: absolute;
+    left: 45px;
+    bottom: 20px;
+    font-size: 12px;
+    background: green;
+    padding: 4px;
+    color: white;
+    font-weight: 700;
+}
+
+
 
 
 
