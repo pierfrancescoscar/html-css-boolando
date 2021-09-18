@@ -1,133 +1,103 @@
-/*GENERAL SETTINGS*/
+/*General Settings*/
 
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-/*Main Cointainer Styling*/
+body {
+    font-size: 14px;
+}
+
+/* Utility */
 
 .container {
+    width: 80%;
+    margin: 30px auto;
 
-    background-color: white;
-    width: 75%;
-    margin: 40px auto;
-   
-    
-}
+} 
 
-main {
-    margin-bottom: 100px;
-}
-
-
-
-/*Products Styling*/
-
-.columns {
+.product-list > li {
     display: inline-block;
-    width: 32%;
-    margin-bottom: 20px;
-    
+    width: calc(100% / 3);
+    margin: 0 -2px 30px;
+    padding: 0 10px;
 }
 
-.products {
+/* Products Styling */
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card-image {
     position: relative;
 }
 
-.products img {
-    width: 100%;
-    padding: 0 5px;
+.card-image .second-image {
+    display: none;
 }
 
-.heart {
+.card:hover .first-image {
+    display: none;
+}
+
+.card:hover .second-image {
+    display: block;
+}
+
+.card-heart {
+    position: absolute;
+    top: 20px;
+    right: 0;
     background: white;
-    position: absolute;
-    top: 10px;
-    right: 5px;
-    padding: 10px;
-    
-}
-
-.second-product-grid {
-    margin-top: 100px;
-}
-
-/*Shop Tags Styling*/
-
-.red-discount {
-    position: absolute;
-    left: 5px;
-    bottom: 20px;
-    font-size: 12px;
-    background: red;
-    padding: 4px;
-    color: white;
-    font-weight: 700;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
 
 }
 
-.green-tag {
-    position: absolute;
-    left: 45px;
-    bottom: 20px;
-    font-size: 12px;
-    background: green;
-    padding: 4px;
-    color: white;
-    font-weight: 700;
-}
-
-.item6 {
-    position: absolute;
-    left: 5px;
-    bottom: 20px;
-    font-size: 12px;
-    background: green;
-    padding: 4px;
-    color: white;
-    font-weight: 700;
-
-}
-
-/*Description Products Styling*/
-
-.products-description {
-    position: absolute;
-    left: 5px;
-    margin-top: 10px;
-    
-}
-
-.brand-name {
-    font-size: 13px;
-    font-weight: 300;
-
-}
-
-.article-name {
-    font-weight: 700;
-}
-
-.price {
-    font-size: 14px;
+.card:hover .card-heart {
     color: red;
+}
+
+.card-promo {
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+}
+
+.card-promo span {
+    display: inline-block;
+    font-weight: 700;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.card-discount {
+    background: red;
+}
+
+.card-tag {
+    background: green;
+}
+
+.card-text {
+    margin-top: 10px;
+}
+
+.card-text .product-name {
+    font-size: 17px;
     font-weight: 600;
 }
 
-.discounted-price {
-    font-size: 14px;
-    font-weight: 300;
-    text-decoration: line-through;
+.card-text .price {
+    color: red;
+    font-weight: 600;
 }
-
-/*Hover Effects*/
-
-
-
-
-
-
-
